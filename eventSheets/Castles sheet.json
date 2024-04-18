@@ -1,0 +1,102 @@
+{
+	"name": "Castles sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 656817762680284,
+					"parameters": {
+						"object": "CaerphillyIcon"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 451187776711341,
+					"parameters": {
+						"layout": "Caerphilly screen"
+					}
+				}
+			],
+			"sid": 322819946508738
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 257888099372556,
+					"parameters": {
+						"object": "CaerphillyTitle"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 845130756357119,
+					"parameters": {
+						"layout": "Check list"
+					}
+				}
+			],
+			"sid": 645335264816056
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 256976471259092,
+					"parameters": {
+						"object": "SearchIcon"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 622993254341269,
+					"parameters": {
+						"layout": "Check list"
+					}
+				}
+			],
+			"sid": 607685160568170
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 360893326415539,
+					"parameters": {
+						"object": "AccountIcon"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 245151860600085,
+					"parameters": {
+						"layout": "Acount Screen"
+					}
+				}
+			],
+			"sid": 766949811020533
+		}
+	],
+	"sid": 887095065958455
+}
