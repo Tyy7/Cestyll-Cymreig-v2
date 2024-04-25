@@ -1,5 +1,114 @@
 {
 	"name": "Caerphilly sheet",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 124880553418542,
+					"parameters": {
+						"object": "Catapult"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "PopUpQuestion",
+					"sid": 812722152544766,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "PopUpQuestion",
+					"sid": 639350734899186,
+					"behaviorType": "Fade"
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "PopUpQuestion",
+					"sid": 990043645956622,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "PopUpQuestionText",
+					"sid": 687041072475279,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "CaerphillyAnswer1",
+					"sid": 687568999840669,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "CaerphillyCastleAnswer2",
+					"sid": 198539289686957,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "CaerphillyAnswer3",
+					"sid": 998797646324569,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "CaerphillyAnswer4",
+					"sid": 980382926095971,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "PopUpQuestionText",
+					"sid": 190941509096505,
+					"behaviorType": "Fade"
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "CaerphillyAnswer1",
+					"sid": 709405092413365,
+					"behaviorType": "Fade"
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "CaerphillyCastleAnswer2",
+					"sid": 586541162905451,
+					"behaviorType": "Fade"
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "CaerphillyAnswer3",
+					"sid": 776428039961477,
+					"behaviorType": "Fade"
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "CaerphillyAnswer4",
+					"sid": 493798220128303,
+					"behaviorType": "Fade"
+				}
+			],
+			"sid": 121056553164631
+		}
+	],
 	"sid": 889684610355628
 }
