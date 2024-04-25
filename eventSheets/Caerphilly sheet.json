@@ -45,12 +45,24 @@
 					}
 				},
 				{
+					"id": "start-fade",
+					"objectClass": "PopUpQuestionText",
+					"sid": 498151819135058,
+					"behaviorType": "Fade"
+				},
+				{
 					"id": "set-opacity",
 					"objectClass": "CaerphillyAnswer1",
 					"sid": 687568999840669,
 					"parameters": {
 						"opacity": "100"
 					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "CaerphillyAnswer1",
+					"sid": 682764178117043,
+					"behaviorType": "Fade"
 				},
 				{
 					"id": "set-opacity",
@@ -61,12 +73,24 @@
 					}
 				},
 				{
+					"id": "start-fade",
+					"objectClass": "CaerphillyCastleAnswer2",
+					"sid": 403558177601206,
+					"behaviorType": "Fade"
+				},
+				{
 					"id": "set-opacity",
 					"objectClass": "CaerphillyAnswer3",
 					"sid": 998797646324569,
 					"parameters": {
 						"opacity": "100"
 					}
+				},
+				{
+					"id": "start-fade",
+					"objectClass": "CaerphillyAnswer3",
+					"sid": 317932822795631,
+					"behaviorType": "Fade"
 				},
 				{
 					"id": "set-opacity",
@@ -78,36 +102,27 @@
 				},
 				{
 					"id": "start-fade",
-					"objectClass": "PopUpQuestionText",
-					"sid": 190941509096505,
-					"behaviorType": "Fade"
-				},
-				{
-					"id": "start-fade",
-					"objectClass": "CaerphillyAnswer1",
-					"sid": 709405092413365,
-					"behaviorType": "Fade"
-				},
-				{
-					"id": "start-fade",
-					"objectClass": "CaerphillyCastleAnswer2",
-					"sid": 586541162905451,
-					"behaviorType": "Fade"
-				},
-				{
-					"id": "start-fade",
-					"objectClass": "CaerphillyAnswer3",
-					"sid": 776428039961477,
-					"behaviorType": "Fade"
-				},
-				{
-					"id": "start-fade",
 					"objectClass": "CaerphillyAnswer4",
 					"sid": 493798220128303,
 					"behaviorType": "Fade"
 				}
 			],
 			"sid": 121056553164631
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap-object",
+					"objectClass": "Touch",
+					"sid": 902062632074109,
+					"parameters": {
+						"object": "CaerphillyAnswer1"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 118132914307142
 		}
 	],
 	"sid": 889684610355628

@@ -47,8 +47,7 @@
 		"items": [
 			"Touch",
 			"IconHolder",
-			"Title",
-			"CaerphillyAnswer4"
+			"Title"
 		],
 		"subfolders": [
 			{
@@ -122,7 +121,8 @@
 					"CaerphillyCastleAnswer2",
 					"CatapultText",
 					"PopUpQuestionText",
-					"CaerphillyAnswer3"
+					"CaerphillyAnswer3",
+					"CaerphillyAnswer4"
 				],
 				"subfolders": [],
 				"name": "Caerphilly WCYF"
