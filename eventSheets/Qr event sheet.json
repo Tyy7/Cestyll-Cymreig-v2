@@ -97,13 +97,13 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "compare-eventvar",
+							"id": "compare-two-values",
 							"objectClass": "System",
-							"sid": 809464831522658,
+							"sid": 761600132646004,
 							"parameters": {
-								"variable": "QrScanned",
+								"first-value": "QRCode.data",
 								"comparison": 0,
-								"value": "\"Caerphilly\""
+								"second-value": "\"Caerphilly\""
 							}
 						}
 					],
@@ -120,6 +120,32 @@
 					"sid": 815360286400673
 				}
 			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 814689676622921,
+					"parameters": {
+						"first-value": "QRCode.data",
+						"comparison": 0,
+						"second-value": "\"Caerphilly\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 829917299061337,
+					"parameters": {
+						"layout": "Caerphilly screen"
+					}
+				}
+			],
+			"sid": 762666390558102
 		}
 	],
 	"sid": 767393516515013
