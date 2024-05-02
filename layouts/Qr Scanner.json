@@ -71,7 +71,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "UserMedia2",
+					"type": "QRCamera",
 					"properties": {},
 					"uid": 58,
 					"instanceVariables": {},

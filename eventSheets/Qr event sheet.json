@@ -23,8 +23,8 @@
 			"actions": [
 				{
 					"id": "request-camera",
-					"objectClass": "UserMedia",
-					"sid": 811306166142536,
+					"objectClass": "QRCamera",
+					"sid": 261681785718990,
 					"parameters": {
 						"source": "0",
 						"preferred-direction": "environment",
@@ -61,8 +61,8 @@
 			"actions": [
 				{
 					"id": "snapshot",
-					"objectClass": "UserMedia",
-					"sid": 399584430557300,
+					"objectClass": "QRCamera",
+					"sid": 861016405434986,
 					"parameters": {
 						"format": "png",
 						"jpeg-quality": "100"
@@ -76,18 +76,18 @@
 				{
 					"id": "read-qr",
 					"objectClass": "QRCode",
-					"sid": 863468751896730,
+					"sid": 828687938481736,
 					"parameters": {
-						"url": "UserMedia.SnapshotURL"
+						"url": "QRCamera.SnapshotURL"
 					}
 				},
 				{
 					"id": "set-eventvar-value",
 					"objectClass": "System",
-					"sid": 825473043551200,
+					"sid": 852574904548959,
 					"parameters": {
 						"variable": "QrScanned",
-						"value": "UserMedia.SnapshotURL"
+						"value": "QRCamera.SnapshotURL"
 					}
 				}
 			],
