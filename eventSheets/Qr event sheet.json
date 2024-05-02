@@ -1,0 +1,126 @@
+{
+	"name": "Qr event sheet",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "QrScanned",
+			"type": "string",
+			"initialValue": "",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 941948906602725
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 406731150820515
+				}
+			],
+			"actions": [
+				{
+					"id": "request-camera",
+					"objectClass": "UserMedia",
+					"sid": 811306166142536,
+					"parameters": {
+						"source": "0",
+						"preferred-direction": "environment",
+						"preferred-width": "0",
+						"preferred-height": "0",
+						"include-mic": false,
+						"mic-source": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 661825484304977,
+					"parameters": {
+						"variable": "QrScanned",
+						"value": "\"Nothing\""
+					}
+				}
+			],
+			"sid": 430279035281314
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 160624193856096,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "snapshot",
+					"objectClass": "UserMedia",
+					"sid": 399584430557300,
+					"parameters": {
+						"format": "png",
+						"jpeg-quality": "100"
+					}
+				},
+				{
+					"id": "wait-for-previous-actions",
+					"objectClass": "System",
+					"sid": 710930955080512
+				},
+				{
+					"id": "read-qr",
+					"objectClass": "QRCode",
+					"sid": 863468751896730,
+					"parameters": {
+						"url": "UserMedia.SnapshotURL"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 825473043551200,
+					"parameters": {
+						"variable": "QrScanned",
+						"value": "UserMedia.SnapshotURL"
+					}
+				}
+			],
+			"sid": 743402062300664,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 809464831522658,
+							"parameters": {
+								"variable": "QrScanned",
+								"comparison": 0,
+								"value": "\"Caerphilly\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 414657044846809,
+							"parameters": {
+								"layout": "Caerphilly screen"
+							}
+						}
+					],
+					"sid": 815360286400673
+				}
+			]
+		}
+	],
+	"sid": 767393516515013
+}

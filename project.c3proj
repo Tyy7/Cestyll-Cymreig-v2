@@ -8,6 +8,14 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
+			"id": "Sparsha_qrCode",
+			"name": "QR Code",
+			"author": "Sparsha",
+			"bundled": false,
+			"version": "4.0.0"
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -35,6 +43,13 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "UserMedia",
+			"name": "User Media",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Fade",
 			"name": "Fade",
@@ -47,7 +62,8 @@
 		"items": [
 			"Touch",
 			"IconHolder",
-			"Title"
+			"Title",
+			"UserMedia2"
 		],
 		"subfolders": [
 			{
@@ -126,6 +142,15 @@
 				],
 				"subfolders": [],
 				"name": "Caerphilly WCYF"
+			},
+			{
+				"items": [
+					"QRCode",
+					"UserMedia",
+					"Text"
+				],
+				"subfolders": [],
+				"name": "Qr codes"
 			}
 		]
 	},
@@ -141,7 +166,8 @@
 			"Castle Select",
 			"Check list",
 			"Acount Screen",
-			"Caerphilly screen"
+			"Caerphilly screen",
+			"Qr Scanner"
 		],
 		"subfolders": []
 	},
@@ -151,7 +177,8 @@
 			"Castles sheet",
 			"Check list sheet",
 			"Account sheet",
-			"Caerphilly sheet"
+			"Caerphilly sheet",
+			"Qr event sheet"
 		],
 		"subfolders": []
 	},

@@ -17,9 +17,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 451187776711341,
+					"sid": 729286981767006,
 					"parameters": {
-						"layout": "Caerphilly screen"
+						"layout": "Qr Scanner"
 					}
 				}
 			],
