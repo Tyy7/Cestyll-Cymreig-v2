@@ -146,6 +146,27 @@
 				}
 			],
 			"sid": 762666390558102
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-tap",
+					"objectClass": "Touch",
+					"sid": 179774496017740
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 378791274024349,
+					"parameters": {
+						"layout": "Caerphilly screen"
+					}
+				}
+			],
+			"sid": 774536040263765
 		}
 	],
 	"sid": 767393516515013
