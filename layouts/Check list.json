@@ -313,7 +313,7 @@
 					}
 				},
 				{
-					"type": "CaerphillyTitle",
+					"type": "CardiffTitle",
 					"properties": {
 						"text": "Caerphilly 0/20",
 						"enable-bbcode": true,

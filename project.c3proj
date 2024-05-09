@@ -95,7 +95,7 @@
 					{
 						"items": [
 							"CaerphillyIcon",
-							"CaerphillyTitle",
+							"CardiffTitle",
 							"HolderText",
 							"ScoreText"
 						],
@@ -161,6 +161,21 @@
 				],
 				"subfolders": [],
 				"name": "Qr codes"
+			},
+			{
+				"items": [
+					"CardiffQuestion",
+					"CardiffCastle",
+					"PopUpQuestion2",
+					"CardiffAnswer1",
+					"CatapultText2",
+					"PopUpQuestionText2",
+					"CardiffAnswer2",
+					"CardiffAnswer3",
+					"CardiffAnswer4"
+				],
+				"subfolders": [],
+				"name": "Cardiff WCYF2"
 			}
 		]
 	},
@@ -177,7 +192,8 @@
 			"Check list",
 			"Acount Screen",
 			"Caerphilly screen",
-			"Qr Scanner"
+			"Qr Scanner",
+			"Cardiff Screen"
 		],
 		"subfolders": []
 	},
@@ -188,7 +204,8 @@
 			"Check list sheet",
 			"Account sheet",
 			"Caerphilly sheet",
-			"Qr event sheet"
+			"Qr event sheet",
+			"Cardiff Sheet"
 		],
 		"subfolders": []
 	},
