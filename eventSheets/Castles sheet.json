@@ -33,7 +33,7 @@
 					"objectClass": "Touch",
 					"sid": 257888099372556,
 					"parameters": {
-						"object": "CardiffTitle"
+						"object": "CaerphillyTitle"
 					}
 				}
 			],
@@ -210,30 +210,6 @@
 				}
 			],
 			"sid": 938179995861582
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-tap-object",
-					"objectClass": "Touch",
-					"sid": 459669221214589,
-					"parameters": {
-						"object": "Cardiff"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 732688642708341,
-					"parameters": {
-						"layout": "Qr Scanner"
-					}
-				}
-			],
-			"sid": 653921002848450
 		}
 	],
 	"sid": 887095065958455
